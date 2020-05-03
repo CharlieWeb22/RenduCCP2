@@ -1,4 +1,15 @@
 # Installation du projet en local
+Requirement :
+
+Ce projet nécessite l'installation de :  
+
+- composer :https://getcomposer.org/download/
+
+- Symfony : https://symfony.com/
+
+Pensez à vérifier si votre version de PHP correspond avec le projet
+
+
 ## Télécharger le projet
 Une fois sur le répository de votre choix,
 cliquez en haut à droite sur clone ou download puis sur Download ZIP.
@@ -11,9 +22,6 @@ Vérifier bien que vous soyez sur votre projet puis lancer la première commande
 composer install
 ```
 Cela permettra d'installer les fichiers vendors manquant nécessaire au projet.
-
-Bien évidemment, on part ici du princip que vous utilisez déjà composer, si ce n'est pas le cas, pensez à aller faire un tour sur le site de composer:
-https://getcomposer.org/download/
 
 ## Créer la base de données
 Il faut ensuite récupérer les données pour les afficher dans votre projet.
