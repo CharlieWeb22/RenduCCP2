@@ -1,9 +1,9 @@
 # Installation du projet en local
-Requirement :
+Pré-requis :
 
 Ce projet nécessite l'installation de :  
 
-- composer :https://getcomposer.org/download/
+- Composer :https://getcomposer.org/download/
 
 - Symfony : https://symfony.com/
 
