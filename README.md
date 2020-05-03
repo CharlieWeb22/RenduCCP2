@@ -11,6 +11,7 @@ Vérifier bien que vous soyez sur votre projet puis lancer la première commande
 composer install
 ```
 Cela permettra d'installer les fichiers vendors manquant nécessaire au projet.
+
 Bien évident, on part ici du principe que vous utilisez déjà composer, si ce n'est pas le cas, pensez à aller faire un tour sur le site de composer:
 https://getcomposer.org/download/
 
