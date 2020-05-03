@@ -44,16 +44,19 @@ via votre base de données.
 Soit il existe des identifiants pré-existant :
 
 Pour le rôle **User**,
+
 identifiant : lily@gmail.com
 
 mdp : Charlotte
 
 Pour le rôle **Admin**,
+
 Identifiant : Catherinedelapereix@gmail.com
 
 mdp : Catherine
 
 Pour le rôle **Admin générale**,
+
 identifiant : Charlotte@gmail.com
 
 mdp : Charlotte
