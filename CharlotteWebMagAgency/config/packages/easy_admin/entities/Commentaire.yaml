@@ -1,0 +1,12 @@
+easy_admin:
+    entities:
+        Commentaire:
+            class: App\Entity\Commentaire
+            list:
+                actions: 
+                    - {name: 'show', label: '', icon: 'eye', title: 'voir'}
+                    - {name: 'delete', label: '', icon: 'trash-alt', title: 'supprimer'}
+                    - {name: 'edit', label: '', icon: 'edit', title: 'modifier'}
+                    - {name: 'new', label: 'Ajouter un commentaire', icon: 'plus', title: 'Ajouter'}
+
+            help: 'Les commentaires ne sont pas encore fonctionnelles'

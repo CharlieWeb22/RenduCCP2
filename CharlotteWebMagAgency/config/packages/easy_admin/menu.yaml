@@ -1,0 +1,10 @@
+easy_admin:
+    design:
+        brand_color: '#49A0B5'
+        menu:
+            - { label: 'Blog' }
+            - { entity: 'Article', icon: 'newspaper', permission: 'ROLE_REDAC' }
+            - { entity: 'Categorie', icon: 'cubes', permission: 'ROLE_REDAC' }
+            - { entity: 'Commentaire', icon: 'comments', permission: 'ROLE_REDAC' }
+            - { label: 'Utilisateurs' }
+            - { entity: 'User', icon: 'user', permission: 'ROLE_ADMIN_GENERAL', }

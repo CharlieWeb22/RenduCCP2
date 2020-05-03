@@ -1,0 +1,28 @@
+easy_admin:
+    entities:
+        User:
+            class: App\Entity\User
+            list:
+                actions: 
+                    - {name: 'show', label: '', icon: 'eye', title: 'voir'}
+                    - {name: '-delete'}
+                    - {name: 'edit', label: '', icon: 'edit', title: 'modifier'}
+                    - {name: '-new'}
+                help: 'Voici la liste des utilisateurs du site'
+                fields:
+                    - { property: 'nom' }
+                    - { property: 'prenom' }
+                    - { property: 'email' }
+                    - { property: 'roles' }
+            form:
+                fields:
+                    - { property: 'nom' }
+                    - { property: 'prenom' }
+                    - { property: 'email' }
+                    -   property: 'roles'
+                        type: 'choice'
+                        type_options:
+                            mapped: true
+                            expanded: true
+                            multiple: true
+                            choices: { 'User': 'ROLE_USER', 'Prestataire': 'ROLE_PRESTA', 'Rédacteur': 'ROLE_REDAC', 'Responsable Editorial': 'ROLE_RESP_EDIT', 'Administrateur': 'ROLE_ADMIN' }

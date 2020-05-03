@@ -1,0 +1,16 @@
+easy_admin:
+    entities:
+        Categorie:
+            class: App\Entity\Categorie
+            form:
+                fields:
+                    - { property: 'nom' }
+                    - { property: 'slug' }
+            list:
+                actions: 
+                    - {name: 'show', label: '', icon: 'eye', title: 'voir'}
+                    - {name: 'delete', label: '', icon: 'trash-alt', title: 'supprimer'}
+                    - {name: 'edit', label: '', icon: 'edit', title: 'modifier'}
+                    - {name: 'new', label: 'Ajouter une categorie', icon: 'plus', title: 'Ajouter'}
+
+                help: 'Les catégories ne sont pas encore fonctionnelles'
