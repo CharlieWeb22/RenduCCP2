@@ -38,16 +38,19 @@ Pour importer les données de la base, suivait les instructions suivantes :
 Vous pouvez désormais lancer le serveur et voir les données sur vos pages.
 
 # Identifiant du projet
-
-Pour s'identifier sur le projet et voir s'il fonctionne, vous pouvez désormais soit créer vos propres idéntifiants et donner le rôle d'administrateur à votre nouvelle identifiant 
+Pour s'identifier sur le projet et voir s'il fonctionne, vous pouvez désormais soit créer vos propres 
+idéntifiants et donner le rôle d'administrateur à votre nouvelle identifiant 
 via votre base de données.
 Soit il existe des identifiants pré-existant :
+
 Pour le rôle **User**,
 identifiant : lily@gmail.com
 mdp : Charlotte
+
 Pour le rôle **Admin**,
 Identifiant : Catherinedelapereix@gmail.com
 mdp : Catherine
+
 Pour le rôle **Admin générale**,
 identifiant : Charlotte@gmail.com
 mdp : Charlotte
