@@ -12,7 +12,7 @@ composer install
 ```
 Cela permettra d'installer les fichiers vendors manquant nécessaire au projet.
 
-Bien évident, on part ici du principe que vous utilisez déjà composer, si ce n'est pas le cas, pensez à aller faire un tour sur le site de composer:
+Bien évidemment, on part ici du princip que vous utilisez déjà composer, si ce n'est pas le cas, pensez à aller faire un tour sur le site de composer:
 https://getcomposer.org/download/
 
 ## Créer la base de données
@@ -22,7 +22,9 @@ Pour récupérer les informations de la base de données, il faut commencer par 
 ```
 DATABASE_URL=mysql://root@127.0.0.1:3306/WebMag-Agency?serverVersion=5.7
 ```
-Si ce nom de base de donnée existe déjà pour vous, vous pouvez le changer
+Si ce nom de base de donnée existe déjà ('WebMag-Agency') pour vous, vous pouvez le changer.
+Vos identifiants et mots de passe ('root') sont également peut-être différent, pensez à les modifiers pour qu'il correspond à votre base de données.
+
 Puis entrer la commande suivante pour lancer la création de la base de données :
 
 ```
